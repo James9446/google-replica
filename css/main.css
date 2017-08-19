@@ -167,4 +167,75 @@ a.button:hover {
 	font-size: 14px;
 }
 
+ /* --- Responsive CSS rules --- */
+
+@media (max-width: 750px) {
+	.search-box input {
+		width: 75%;
+	}
+}
+
+@media (max-width: 522px) {
+	* {
+		font-size: 12px;
+	}
+
+	ul.nav {
+		margin-right: 0;
+	}
+
+	ul.nav li {
+		margin-right: 0;
+	}
+
+	.profile-img {
+		display: none;
+	}
+
+	.left-site-links {
+		float: none;
+		margin: auto;
+		width: 60%;
+	}
+
+	.right-site-links {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.left-site-links {
+		width: 80%;
+	}
+}
+
+@media (max-width: 361px) {
+	.top-navigation {
+		margin: auto;
+		width: 95%;
+	}
+}
+
+@media (max-width: 310px) {
+	.top-navigation {
+		margin: auto;
+		width: 95%;
+	}
+}
+
+@media (max-width: 305px) {
+	.left-site-links {
+		width: 90%;
+	}
+	.search-buttons {
+		margin: 17px auto;
+		width: 70%
+	}
+}
+
+
+
+
+
+
 
